@@ -1,8 +1,8 @@
 import cv2
 import numpy
 
-vid = cv2.VideoCapture(0)
-render_resolution=300
+vid = cv2.VideoCapture(0)         #-------->Camera/Video file plus. change 0 to 'C:/...' directory for file mode
+render_resolution=300             #-------->Video resolution
 vid.set(3,render_resolution)
 vid.set(2,(render_resolution/4)*3)
 
